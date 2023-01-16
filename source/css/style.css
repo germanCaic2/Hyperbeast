@@ -1,0 +1,83 @@
+:root {
+    --dark: #0a0a0a;
+    --dark-x: #111111;
+    --dark-xx: #222222;
+    --light: #ffffff;
+    --primary: #ff6079;
+    --primary-x: #fe3051;
+    --muted: #a1b0bf;
+
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--light);
+    background-color: var(--dark);
+}
+
+.bg-dark {
+    background-color: var(--dark) !important;
+}
+.bg-dark-x {
+    background-color: var(--dark-x);
+}
+.bg-dark-xx {
+    background-color: var(--dark-xx);
+}
+
+.text-muted {
+    color: var(--muted) !important;
+}
+
+.text-primary {
+    background: linear-gradient(90deg, var(--primary) 0%, var(--primary-x) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: var(--primary) !important;
+}
+
+.navbar {
+    min-height: 5rem;
+}
+
+.btn {
+    font-weight: 700;
+    padding: .8rem 1rem;
+    border: 0;
+    border-radius: .4rem;
+}
+
+.btn-primary {
+    background: linear-gradient(90deg, var(--primary) 0%, var(--primary-x) 100%);
+    color: var(--light);
+}
+
+.btn-secondary {
+    background-color: var(--dark-xx);
+}
+
+.btn-secondary:hover {
+    background-color: var(--dark-xx);
+    opacity: .8;
+}
+
+.shadow {
+    box-shadow: 0 .5rem .5rem 0 rgba(0,0,0,.5) !important;
+}
+
+.bg-image-x {
+    background-image: url("/source/img/bg-figma.svg");
+    background-size: cover;
+    min-height: 1000px;
+}
+
+.bg-primary {
+    background: linear-gradient(90deg, var(--primary) 0%, var(--primary-x) 100%);
+}
+
+.icon-container {
+    width: 50px;
+    height: 50px;
+}
