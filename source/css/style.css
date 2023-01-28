@@ -73,8 +73,7 @@ body {
 
 .bg-image-x {
     background-image: url("/source/img/bg-figma.svg");
-    background-size: cover;
-    min-height: 1000px;
+    background-size:auto;
 }
 
 .bg-primary {
