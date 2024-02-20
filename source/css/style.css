@@ -7,6 +7,15 @@
     --primary-x: #fe3051;
     --muted: #a1b0bf;
 
+    --gold: #e0e591;
+    --gold-x: #ffb120;
+
+    --platino: #60aaff;
+    --platino-x: #247faa;
+
+    --diamante: #a4ffe4;
+    --diamante-x: #00dffc;
+
 }
 * {
   margin: 0;
@@ -37,6 +46,27 @@ body {
 
 .text-primary {
     background: linear-gradient(90deg, var(--primary) 0%, var(--primary-x) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: var(--primary) !important;
+}
+
+.text-gold {
+    background: linear-gradient(90deg, var(--gold) 0%, var(--gold-x) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: var(--gold) !important;
+}
+
+.text-platino {
+    background: linear-gradient(90deg, var(--platino) 0%, var(--platino-x) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: var(--primary) !important;
+}
+
+.text-diamante {
+    background: linear-gradient(90deg, var(--diamante) 0%, var(--diamante-x) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: var(--primary) !important;
